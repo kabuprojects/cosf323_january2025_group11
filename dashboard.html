@@ -94,11 +94,11 @@
         function showManageStudents() {
             document.getElementById('main-content').innerHTML = `
                 <h2>Manage Students</h2>
-                <button class="btn btn-add">Add Student</button>
+                <button class="btn btn-add" onclick="window.location.href='./register2.html';">Add Student</button>
                 <button class="btn btn-edit">Edit Student</button>
                 <button class="btn btn-delete">Delete Student</button>
                 <p>List of students will be displayed here.</p>`;
-        }
+        }s
 
         function renderCharts() {
             let ctx1 = document.getElementById('pieChart1').getContext('2d');
