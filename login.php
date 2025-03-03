@@ -1,6 +1,10 @@
 <?php
 session_start();
+<<<<<<< HEAD
 $conn = new mysqli("localhost", "root", "password", "admin_db");
+=======
+$conn = new mysqli("localhost", "root", "", "admin_db");
+>>>>>>> 6532f6a (Added new files and updated index.html)
 
 if ($conn->connect_error) {
     die("Database connection failed: " . $conn->connect_error);
@@ -42,4 +46,7 @@ if ($result->num_rows > 0) {
 $stmt->close();
 $conn->close();
 ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6532f6a (Added new files and updated index.html)

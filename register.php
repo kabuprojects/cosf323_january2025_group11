@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 $conn = new mysqli("localhost", "root", "password", "admin_db");
+=======
+$conn = new mysqli("localhost", "root", " ", "admin_db");
+>>>>>>> 6532f6a (Added new files and updated index.html)
 
 if ($conn->connect_error) {
     die("Database connection failed: " . $conn->connect_error);
